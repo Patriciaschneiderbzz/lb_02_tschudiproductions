@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Tschudi Productions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+       
+    </style>
+</head>
+
+<body id="start">
+    <header class="lenscha">
+        <nav>
+            <a href="./index.html"><img class="logo" src="./assets/logo.png" alt="Logo"></a>
+            <ul>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="kontakt.html">Kontakt</a>
+                </li>
+                <li>
+                    <a href="werke.html">Werke</a>
+                </li>
+                <li>
+                    <a href="extras.html">Extras</a>
+                </li>
+            </ul>
+        </nav>
+      </header>
+      <main>
+        <h1 class="titel">WEEKLY</h1>
+        <section class="row">
+            <div class="diego">
+                <a href="./assets/arbeiten/weekly/arbeitsjournal50.pdf" target=“_blank”>
+                    <img src="./assets/screenshots/arbeitsjournal50.jpg" alt="arbeitsjournal KW50">
+                </a>
+                <div class=“text”>
+                    <h3 class=“titel”>ARBEITSJOURNAL KW 50<br></h3>
+                    <p>Jede Woche reflektieren wir unsere Arbeits- oder Schultage in unserem Arbeitsjournal. Hier wird aufgeschrieben, was wir gemacht haben, wie wir uns dabei gefühlt haben und was unsere Ziele für die nächste Woche sind. Für mich ist diese Reflexion sehr wichtig, denn so sehe ich genau, was gut oder eben nicht gut gelaufen ist und wie ich es das nächste Mal besser machen könnte.</p>
+                </div>
+            </div>
+            <div class="diego">
+              <a href="./assets/arbeiten/weekly/arbeitsjournal5.pdf" target=“_blank”>
+                  <img src="./assets/screenshots/arbeitsjournal50.jpg" alt="Arbeitsjournal KW05">
+              </a>
+              <div class=“text”>
+                  <h3 class=“titel”>ARBEITSJOURNAL KW 05<br></h3>
+                  <p>Jede Woche reflektieren wir unseren Arbeits- oder Schultag in unserem Arbeitsjournal. Hier wird aufgeschrieben, was wir gemacht haben, wie wir uns dabei gefühlt haben und was unsere Ziele für die nächste Woche sind. Für mich ist diese Reflexion sehr wichtig, denn so sehe ich genau, was gut oder eben nicht gut gelaufen ist und wie ich es das nächste Mal besser machen könnte.</p>
+              </div>
+            </div>
+            <div class="diego">
+              <a href="./assets/arbeiten/weekly/skizzen.pdf" target=“_blank”>
+                  <img src="./assets/screenshots/skizze.jpg" alt="Präsentation Projektmanagement">
+              </a>
+              <div class=“text”>
+                  <h3 class=“titel”>FÜNF-MINUTEN-SKIZZEN<br></h3>
+                  <p>Neben dem Arbeitsjournal gehören auch unsere Skizzenaufträge zu einer normalen Arbeitswoche dazu. Damit lässt sich Verschiedenes darstellen. An jedem Arbeitstag im ZLI wird eine Skizze erstellt. Die Aufträge sind individuell und wir müssen jede Woche neue Objekte skizzieren.</p>
+              </div>
+            </div>        
+      </main>
+      <div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">BACK TO TOP</a></li>
+                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="werke.html">Werke </a></li>
+                <li class="list-inline-item"><a href="kontakt.html">Kontakt</a></li>
+                <li class="list-inline-item"><a href="extras.html">Extras</a></li>
+            </ul>
+            <p class="copyright">Lenja Koller</p>
+        </footer>
+    </div>
+    <script>
+        $(function () {
+            $('a[href*=#]').on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $($(this).attr('href')).offset().top
+                }, 500, 'linear');
+            });
+        });
+    </script>
+  </body>
+</html>

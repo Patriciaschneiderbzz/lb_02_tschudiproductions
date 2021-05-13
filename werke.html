@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Tschudi Productions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+       
+    </style>
+</head>
+
+<body id="start">
+    <header class="lenscha">
+        <nav>
+            <a href="./index.html"><img class="logo" src="./assets/logo.png" alt="Logo"></a>
+            <ul>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="kontakt.html">Kontakt</a>
+                </li>
+                <li>
+                    <a href="werke.html">Werke</a>
+                </li>
+                <li>
+                    <a href="extras.html">Extras</a>
+                </li>
+            </ul>
+        </nav>
+  </header>
+  <main>
+    <h1 class="titel">FREIE <br> ARBEITEN</h1>
+    <section class="row">
+      <div class="diego">
+        <a href="https:elfenzauber.lebesfroid.ch" target=“_blank”>
+          <img src="./assets/screenshots/elfenzauber.jpg" alt="Festtagsgruss">
+        </a>
+        <div class=“text”>
+          <h3 class=“titel”>FESTTAGSGRUSS<br></h3>
+          <p>Jedes Jahr legen sich die MediamatikerInnen im Basislehrjahr ins Zeug und gestalten einen «Festtagsgruss», welcher an mehr als 140 Kunden und 250 weitere Kontakte versendet wird. Meine Gruppe hat sich für das Gestalten eines interaktiven Weihnachtsdorfes entschieden. Wir konnten mit unserer Idee überzeugen und somit wurde dieses Jahr unser Festtagsgruss ausgewählt und versandt.</p>
+        </div>
+      </div>
+      <div class="diego">
+        <a href="./assets/arbeiten/freie_arbeit/fontimage_shot.jpg" target=“_blank”>
+          <img src="./assets/screenshots/little_fontimage.jpg" alt="Little Font-image">
+        </a>
+        <div class=“text”>
+          <h3 class=“titel”>LITTLE FONT-IMAGE<br></h3>
+          <p>In diesem Auftrag ging es darum, einen Begriff neben dem Textinhalt auch visuell darzustellen. Mit einem kleinen Font-Image wird das Wort ausgeschrieben und durch eine kleine Illustration aus der Bedeutung des Wortes dargestellt. Bei meinen kleinen Arbeiten ging es um die Wörter «shot», «open» und «drop».</p>
+        </div>
+      </div>
+      <div class="diego">
+        <a href="./assets/arbeiten/freie_arbeit/dreams.jpg" target=“_blank”>
+          <img src="./assets/screenshots/dream.jpg" alt="Dreams">
+        </a>
+        <div class=“text”>
+          <h3 class=“titel”>DREAMS<br></h3>
+          <p>«Meine Wünsche für das Jahr 2021». Hier sollten wir uns Gedanken über unsere Visionen und Träume für das neue Jahr machen. Diese haben wir mittels Adobe Illustrator illustriert und gestaltet. Das Maskieren der Illustration durch unsere Kopfsilhouette hat dem Auftrag unsere persönliche Note gegeben und jeden Traum zu etwas Besonderem gemacht.</p>
+        </div>
+      </div>
+  </main>
+  <div class="footer-basic">
+    <footer>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">BACK TO TOP</a></li>
+            <li class="list-inline-item"><a href="about.html">About</a></li>
+            <li class="list-inline-item"><a href="werke.html">Werke </a></li>
+            <li class="list-inline-item"><a href="kontakt.html">Kontakt</a></li>
+            <li class="list-inline-item"><a href="extras.html">Extras</a></li>
+        </ul>
+        <p class="copyright">Lenja Koller</p>
+    </footer>
+</div>
+<script>
+    $(function () {
+        $('a[href*=#]').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $($(this).attr('href')).offset().top
+            }, 500, 'linear');
+        });
+    });
+</script>
+</body>
+</html>

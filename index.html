@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Tschudi Productions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+       
+    </style>
+</head>
+
+<body id="start">
+    <header class="lenscha">
+        <nav>
+            <a href="./index.html"><img class="logo" src="css/assets/logo.png" alt="Logo"></a>
+            <ul>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="kontakt.html">Kontakt</a>
+                </li>
+                <li>
+                    <a href="werke.html">Werke</a>
+                </li>
+                <li>
+                    <a href="extras.html">Extras</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="section04" class="demo">
+            <a href="#one"><span></span>SCROLL</a>
+        </section>
+    </header>
+    <main id="scroll">
+        <div class="parallax5">
+        </div>
+        <div class="parallax" id="one">
+            <section class="left">
+                <h1 class="index">About</h1>
+                <p class="intro">Hier finden sie einige meiner ersten Arbeiten. Dazu gehört eine Broschüre zum Thema
+                    Medienkompetenz, eine Liste mit Tipps und Tricks zur Verbesserung der Präsentationstechnik, unsere
+                    Präsentation im Projektmanagement, eine Briefgestaltung, mein persönliches CI/CD sowie unser
+                    Marketingkonzept.</p>
+                <a href="about.html">
+                    <h2>ARBEITEN ANSEHEN</h2>
+                </a>
+            </section>
+        </div>
+        <div class="parallax2">
+            <section class="right">
+                <h1 class="index">Werke</h1>
+                <p class="intro">Bei Grafik und Illustration stelle ich ihnen weitere Arbeiten vor, bei denen ich hauptsächlich mit
+                    Adobe Programmen gearbeitet habe. Dazu gehören eine Datenvisualisierung,
+                    Farbkomposition, ein Font-Image, Mockup sowie eine Transformation.</p>
+                <a href="werke.html">
+                    <h2>ARBEITEN ANSEHEN</h2>
+                </a>
+            </section>
+        </div>
+        <div class="parallax3">
+            <section class="left">
+                <h1 class="index">Kontakt</h1>
+                <p class="intro">Die Weeklys sind wöchentliche Aufträge, welche zu jeder normalen Arbeitswoche dazugehören. Hier
+                    finden sie meine Arbeitsjournale und verschiedene Skizzen, welche ich im ZLI angefertigt habe.</p>
+                <a href="kontakt.html">
+                    <h2>ARBEITEN ANSEHEN</h2>
+                </a>
+            </section>
+        </div>
+        <div class="parallax4">
+            <section class="right">
+                <h1 class="index">Extras</h1>
+                <p class="intro">Hier finden sie drei Arbeiten, welche ich neben den richtigen Aufträgen im ZLI erarbeitet
+                    haben. Zu diesen freien Arbeiten gehören der Festtagsgruss, kleine Font-Images und die Illustration
+                    zu meinen Träumen und Visionen fürs 2021.</p>
+                <a href="extras.html">
+                    <h2>ARBEITEN ANSEHEN</h2>
+                </a>
+            </section>
+        </div>
+    </main>
+    <div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">BACK TO TOP</a></li>
+                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="werke.html">Werke </a></li>
+                <li class="list-inline-item"><a href="kontakt.html">Kontakt</a></li>
+                <li class="list-inline-item"><a href="extras.html">Extras</a></li>
+            </ul>
+            <p class="copyright">Lenja Koller</p>
+        </footer>
+    </div>
+    <script>
+        $(function () {
+            $('a[href*=#]').on('click', function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $($(this).attr('href')).offset().top
+                }, 500, 'linear');
+            });
+        });
+    </script>
+</body>
+
+</html>
