@@ -5,30 +5,36 @@
 body {
     background-color: rgb(25, 25, 25);
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
     font-weight: 200;
     margin: 0;
 }
 
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold 700;
     font-size: 3rem;
     color: rgb(235, 210, 200);
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     color: white;
     background-color: rgb(235, 210, 200);
     padding: 10px;
 }
 
+h7 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+}
+
 h3 {
     font-size: 1.2rem;
-    font-family: 'Oswald', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     color: white;
 }
@@ -54,12 +60,12 @@ nav ul {
     list-style: none;
     justify-content: flex-end;
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200;
 }
 
 nav ul a {
-    font-family: 'Oswald', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     color: white;
     display: flex;
@@ -70,7 +76,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-    font-family: 'Oswald', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration-line: underline;
     transition: 1s;
     color: rgb(235, 210, 200);
@@ -315,8 +321,6 @@ label a:hover {
 
 .footerhight{
     background: #292929;
-    margin-bottom: 0px;
-    padding-bottom: 0;
 }
 .bg-grey {
     background: #292929;
@@ -327,12 +331,11 @@ footer {
 }
 
 footer p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 footer h6 {
-    padding-top: 50px;
     font-family: 'Playfair Display', serif;
     font-size: 1em;
     margin-bottom: 10px;
@@ -354,10 +357,10 @@ footer h6:after {
     text-decoration: none;
     border: 1px solid;
     border-radius: 43px;
-    font-size: 13px;
+    font-size: 16px;
     padding: 7px 30px;
-    margin-top: 30px;
-    line-height: 35px;
+    margin-top: 15px;
+    line-height: 50px;
 }
 
 .btn-footer:hover {

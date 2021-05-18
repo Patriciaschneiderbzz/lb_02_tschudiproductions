@@ -94,27 +94,66 @@
             </div>
               
       </main>
-      <div class="footer-basic">
-        <footer>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="index.html">BACK TO TOP</a></li>
-                <li class="list-inline-item"><a href="about.html">About</a></li>
-                <li class="list-inline-item"><a href="werke.html">Werke </a></li>
-                <li class="list-inline-item"><a href="kontakt.html">Kontakt</a></li>
-                <li class="list-inline-item"><a href="extras.html">Extras</a></li>
-            </ul>
-            <p class="copyright">Lenja Koller</p>
-        </footer>
-    </div>
-    <script>
-        $(function () {
-            $('a[href*=#]').on('click', function (e) {
-                e.preventDefault();
-                $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top
-                }, 500, 'linear');
-            });
-        });
-    </script>
+      <footer class="footerhight" class="container-fluid bg-grey py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <div class="logo-part">
+    
+                                <div class="titel">
+                                    <h7 class="rotate">Anja</h7>
+                                    <h7>Tschudi</h7>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-4">
+                            <h6> About Company</h6>
+                            <div class="row ">
+                              <div class="col-md-6">
+                                <ul>
+                            <li><a href="index.html" class="btn-footer"> More Info </a><br></li>
+                            <li><a href="mailto:aicirtapschneider@hotmail.com" target="_blank" class="btn-footer"> Contact
+                                Us</a><br>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 px-4">
+                            <h6> Navigation</h6>
+                            <div class="row ">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li> <a href="index.html"> Home</a> </li>
+                                        <li> <a href="about.html">  About</a></li>
+                                        <li> <a href="werke.html"> Werke</a> </li>
+                                        <li> <a href="kontakt.html"> Kontakt</a> </li>
+                                        <li> <a class="use" href="extras.html"> Extras</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6> Contact me: </h6>
+                        <div class="social">
+                            <a href="mailto:aicirtapschneider@hotmail.com" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/_patricia.as/" target="_blank"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                        <form class="form-footer my-3">
+                            <input type="text" placeholder="search here...." name="search">
+                            <input type="button" value="Go">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
   </body>
 </html>
